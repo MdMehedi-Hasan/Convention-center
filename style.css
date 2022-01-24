@@ -1,8 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@700&family=Playfair+Display:ital,wght@1,800&family=Poppins:wght@500;600&family=Slabo+27px&display=swap');
+
+/* utilities */
+
 body{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Playfair Display', serif;
     font-family: 'Poppins', sans-serif;
-font-family: 'Slabo 27px', serif;
+    font-family: 'Slabo 27px', serif;
+
 }
+
 .spacing{
     margin-top: 150px;
 }
@@ -17,19 +25,13 @@ font-family: 'Slabo 27px', serif;
     right: 18px;
     top: -10px;
 }
+.special-box{
+    background-color: rgba(46, 65, 83, 0.699);
+    color: cornsilk;
+}
 .btn-black{
     background-color: black;
     border: 1px solid white;
-}
-.btn-sizing{
-    width: 130px;
-    height: 50px;
-}
-.btn-sizing small{
-    font-size: 7px;
-}
-.btn-sizing h6{
-    font-size:12px ;
 }
 .-m-top-10{
     margin-top: -5px;
@@ -41,6 +43,9 @@ font-family: 'Slabo 27px', serif;
     background-color: black;
     color: cornsilk;
     height: 200px;
+}
+a{
+    text-decoration: none;
 }
 @media only screen and (max-width: 576px){
     .special-box{
